@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  color: #333;
+}
+
+header {
+  background-color: #FFB823;
+  padding: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  font-weight: bold;
+  gap: 8px; 
+  color: black;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+
+
+.bold {
+  color: #d62828;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: thin;
+  padding: 5px;
+}
+.cart{
+  font-weight: bold;
+}
+nav a.active, nav a:hover {
+  text-decoration: underline;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:100px;
+  gap: 30px;
+}
+
+.about-content {
+  max-width: 500px;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+}
+
+.about-content p {
+  margin: 15px 0;
+  line-height: 1.6;
+  font-size: 20px;
+}
+
+.promo {
+  margin-top: 20px;
+  background-color: rgba(46, 125, 50, 0.1);
+  padding: 15px;
+  border-left: 5px solid #2e7d32;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #1b5e20;
+}
+
+.about-image img {
+  max-width: 325px;
+  margin-left: 25px;
+}
+
+footer {
+  background-color: #FFB823;
+  color: black;
+  padding: 25px 15px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  min-width: 120px;
+}
+
+.footer-column h4 {
+  margin-bottom: 8px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin: 4px 0;
+}
+
+.footer-column a {
+  color: black;
+  text-decoration: none;
+  font-size: 0.85em;
+}
+
+.footer-column a:hover {
+  text-decoration: none;
+}
+
+.footer-contact {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding-top: 15px;
+  margin-bottom: 10px;       
+  line-height: 1.5;          
+  font-size: 0.78em;
+}
+
+.footer-contact a {
+  color: black;
+  text-decoration: none;
+}
